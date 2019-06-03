@@ -43,15 +43,17 @@ public class wumpus extends JApplet implements ActionListener
 //the shooting options.
 	public wumpus()
 	{
-	
+
+        String url = "http://www.blankblankblank.com/falcon/tsumardi/flash/javagames/wumpus/"
+
     	try{   
-	    heroimage = new URL("http://www.angelfire.com/falcon/tsumardi/flash/javagames/wumpus/hero.gif");
-	    blankimage = new URL("http://www.angelfire.com/falcon/tsumardi/flash/javagames/wumpus/shape8.gif");
-	    shootimage = new URL("http://www.angelfire.com/falcon/tsumardi/flash/javagames/wumpus/shoot.gif");
-	    trapimage = new URL("http://www.angelfire.com/falcon/tsumardi/flash/javagames/wumpus/trap.gif");
-	    fireimage = new URL("http://www.angelfire.com/falcon/tsumardi/flash/javagames/wumpus/fire1.gif");
-	    deathimage =  new URL("http://www.angelfire.com/falcon/tsumardi/flash/javagames/wumpus/death.gif");
-	    flameimage =  new URL("http://www.angelfire.com/falcon/tsumardi/flash/javagames/wumpus/flames1.gif");
+	    heroimage = new URL(url +"hero.gif");
+	    blankimage = new URL(url +"shape8.gif");
+	    shootimage = new URL(url +"shoot.gif");
+	    trapimage = new URL(url +"trap.gif");
+	    fireimage = new URL(url +"fire1.gif");
+	    deathimage =  new URL(url +"death.gif");
+	    flameimage =  new URL(url +"flames1.gif");
 	    
 		}
 		catch(MalformedURLException e){
